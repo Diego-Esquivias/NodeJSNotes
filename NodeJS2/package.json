@@ -1,0 +1,20 @@
+{
+  "name": "nodejs2",
+  "version": "1.0.0",
+  "description": "Node Notes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon NodeJS/Tutorials/09-path-module.js"
+  },
+  "keywords": [
+    "Node",
+    "Notes",
+    "Backend"
+  ],
+  "author": "Diego Esquivias",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
