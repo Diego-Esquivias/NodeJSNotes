@@ -1,7 +1,7 @@
 const {writeFileSync} = require('fs')
 
 // Every bit of data is written to the end of the file
-for (let i = 0; i < 10000; i++) {
+for (let i = 0; i < 500000; i++) {
     writeFileSync('./Content/big.txt', `Hello world ${i}\n`, {flag: 'a'})
 }
 
