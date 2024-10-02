@@ -8,7 +8,7 @@
   "description": "",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon 04-params-query.js"
+    "dev": "nodemon 06-middleware-use.js"
   },
   "dependencies": {
     "axios": "^1.7.7",
